@@ -25,7 +25,7 @@ module.exports = async (fields) => {
 
     try {
         const query = `UPDATE ` +
-                        `adminUser ` +
+                        `adminuser ` +
                         `SET ` +
                             `${arrFields}` +
                         `WHERE ` +

@@ -5,7 +5,7 @@ const Connection = require('../../../database/connection')
 module.exports = async (firstName, lastName, username, email, password, is_suspended) => {
     try {
         const query = `INSERT INTO ` +
-                        `adminUser ` +
+                        `adminuser ` +
                       `VALUES ` +
                         `(null, '${firstName}', '${lastName}', '${username}', '${email}', '${password}', b'${is_suspended}')`
 

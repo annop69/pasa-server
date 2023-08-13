@@ -12,7 +12,7 @@ module.exports = async (params, pageNumber, pageSize) => {
                         (username LIKE '%${params}%') OR
                         email LIKE '%${params}%') AS totalItems ` +
                        `FROM ` +
-                        `adminUser ` +
+                        `adminuser ` +
                        `WHERE ` +
                         `(firstName LIKE '%${params}%') OR ` +
                         `(lastName LIKE '%${params}%') OR ` +

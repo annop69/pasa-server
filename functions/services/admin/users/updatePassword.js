@@ -5,7 +5,7 @@ const Connection = require('../../../database/connection')
 module.exports = async (id, password) => {
     try {
         const query = `UPDATE ` +
-                        `adminUser ` +
+                        `adminuser ` +
                         `SET ` +
                         `password = '${password}' ` +
                         `WHERE ` +

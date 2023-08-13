@@ -5,7 +5,7 @@ module.exports = async (id) => {
     console.log(id)
     try {
         const query = `DELETE FROM ` +
-                        `adminUser ` +
+                        `adminuser ` +
                       `WHERE ` +
                         `ID = '${id}'`
 
